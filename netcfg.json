@@ -79,22 +79,22 @@
         },
         {
           "linkno": 4,
-          "mode": 130,
-          "ipaddr": "192.168.1.10",
-          "LocalPort": 2404,
-          "RemotePort": 1000,
+          "mode": 131,
+          "ipaddr": "192.168.100.232",
+          "LocalPort": 0,
+          "RemotePort": 2504,
           "SocketChannelNo": 1,
           "NetChannelNo": 3,
           "TcpServerSet": null
         },
         {
           "linkno": 5,
-          "mode": 0,
+          "mode": 131,
           "ipaddr": "192.168.1.10",
-          "LocalPort": 0,
+          "LocalPort": 2404,
           "RemotePort": 1000,
-          "SocketChannelNo": 8,
-          "NetChannelNo": 3,
+          "SocketChannelNo": 0,
+          "NetChannelNo": 13,
           "TcpServerSet": null
         },
         {
