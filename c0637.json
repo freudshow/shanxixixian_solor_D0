@@ -1,0 +1,2836 @@
+{
+  "Pad": {
+    "AGCMethod": 1,
+    "AVCMethod": 0,
+    "SaveLog": 1,
+    "SetVolLow_V": 190,
+    "SetVolHigh_V": 270,
+    "SetQLow": 0,
+    "SetQHigh": 0,
+    "SetPlow": 0,
+    "SetPHigh": 0,
+    "CosLow": 600,
+    "CosHigh": 1000,
+    "VolDeadZone_mv": 1,
+    "QDeadZone_q_va": 2,
+    "PDeadZone_p_va": 2,
+    "enableAgcBiHuanCheck": 0,
+    "BiHuanCheckTime_10msCount": 500,
+    "DownSetTime": 50
+  },
+  "linkNo": 6,
+  "InvertNum": 66,
+  "Capacity_VA": 3960000,
+  "GirdPointDataItem": [
+    {
+      "Name": "并网点电压",
+      "RtdbNo": 0
+    },
+    {
+      "Name": "并网点无功功率",
+      "RtdbNo": 0
+    },
+    {
+      "Name": "并网点有功功率",
+      "RtdbNo": 0
+    },
+    {
+      "Name": "并网点功率因数",
+      "RtdbNo": 0
+    }
+  ],
+  "InvertDataItem": [
+    {
+      "No": 0,
+      "Name": "逆变器1",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25090,
+      "ComStatue": [
+        {
+          "devNo": 1,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器1通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 1,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器1容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 1,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器1的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 1,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器1的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 1,
+      "Name": "逆变器2",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25091,
+      "ComStatue": [
+        {
+          "devNo": 2,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器2通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 2,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器2容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 2,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器2的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 2,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器2的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 2,
+      "Name": "逆变器3",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25092,
+      "ComStatue": [
+        {
+          "devNo": 3,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器3通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 3,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器3容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 3,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器3的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 3,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器3的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 3,
+      "Name": "逆变器4",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25093,
+      "ComStatue": [
+        {
+          "devNo": 4,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器4通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 4,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器4容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 4,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器4的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 4,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器4的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 4,
+      "Name": "逆变器5",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25094,
+      "ComStatue": [
+        {
+          "devNo": 5,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器5通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 5,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器5容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 5,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器5的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 5,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器5的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 5,
+      "Name": "逆变器6",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25095,
+      "ComStatue": [
+        {
+          "devNo": 6,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器6通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 6,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器6容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 6,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器6的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 6,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器6的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 6,
+      "Name": "逆变器7",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25096,
+      "ComStatue": [
+        {
+          "devNo": 7,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器7通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 7,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器7容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 7,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器7的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 7,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器7的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 7,
+      "Name": "逆变器8",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25097,
+      "ComStatue": [
+        {
+          "devNo": 8,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器8通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 8,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器8容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 8,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器8的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 8,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器8的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 8,
+      "Name": "逆变器9",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25098,
+      "ComStatue": [
+        {
+          "devNo": 9,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器9通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 9,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器9容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 9,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器9的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 9,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器9的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 9,
+      "Name": "逆变器10",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25099,
+      "ComStatue": [
+        {
+          "devNo": 10,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器10通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 10,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器10容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 10,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器10的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 10,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器10的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 10,
+      "Name": "逆变器11",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25100,
+      "ComStatue": [
+        {
+          "devNo": 11,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器11通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 11,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器11容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 11,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器11的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 11,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器11的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 11,
+      "Name": "逆变器12",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25101,
+      "ComStatue": [
+        {
+          "devNo": 12,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器12通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 12,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器12容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 12,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器12的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 12,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器12的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 12,
+      "Name": "逆变器13",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25102,
+      "ComStatue": [
+        {
+          "devNo": 13,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器13通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 13,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器13容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 13,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器13的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 13,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器13的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 13,
+      "Name": "逆变器14",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25103,
+      "ComStatue": [
+        {
+          "devNo": 14,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器14通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 14,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器14容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 14,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器14的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 14,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器14的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 14,
+      "Name": "逆变器15",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25104,
+      "ComStatue": [
+        {
+          "devNo": 15,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器15通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 15,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器15容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 15,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器15的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 15,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器15的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 15,
+      "Name": "逆变器16",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25105,
+      "ComStatue": [
+        {
+          "devNo": 16,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器16通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 16,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器16容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 16,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器16的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 16,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器16的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 16,
+      "Name": "逆变器17",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25106,
+      "ComStatue": [
+        {
+          "devNo": 17,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器17通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 17,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器17容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 17,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器17的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 17,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器17的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 17,
+      "Name": "逆变器18",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25107,
+      "ComStatue": [
+        {
+          "devNo": 18,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器18通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 18,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器18容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 18,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器18的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 18,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器18的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 18,
+      "Name": "逆变器19",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25108,
+      "ComStatue": [
+        {
+          "devNo": 19,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器19通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 19,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器19容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 19,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器19的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 19,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器19的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 19,
+      "Name": "逆变器20",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25109,
+      "ComStatue": [
+        {
+          "devNo": 20,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器20通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 20,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器20容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 20,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器20的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 20,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器20的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 20,
+      "Name": "逆变器21",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25110,
+      "ComStatue": [
+        {
+          "devNo": 21,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器21通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 21,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器21容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 21,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器21的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 21,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器21的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 21,
+      "Name": "逆变器22",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25111,
+      "ComStatue": [
+        {
+          "devNo": 22,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器22通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 22,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器22容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 22,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器22的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 22,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器22的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 22,
+      "Name": "逆变器23",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25112,
+      "ComStatue": [
+        {
+          "devNo": 23,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器23通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 23,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器23容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 23,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器23的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 23,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器23的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 23,
+      "Name": "逆变器24",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25113,
+      "ComStatue": [
+        {
+          "devNo": 24,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器24通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 24,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器24容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 24,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器24的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 24,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器24的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 24,
+      "Name": "逆变器25",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25114,
+      "ComStatue": [
+        {
+          "devNo": 25,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器25通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 25,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器25容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 25,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器25的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 25,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器25的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 25,
+      "Name": "逆变器26",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25115,
+      "ComStatue": [
+        {
+          "devNo": 26,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器26通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 26,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器26容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 26,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器26的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 26,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器26的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 26,
+      "Name": "逆变器27",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25116,
+      "ComStatue": [
+        {
+          "devNo": 27,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器27通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 27,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器27容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 27,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器27的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 27,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器27的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 27,
+      "Name": "逆变器28",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25117,
+      "ComStatue": [
+        {
+          "devNo": 28,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器28通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 28,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器28容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 28,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器28的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 28,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器28的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 28,
+      "Name": "逆变器29",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25118,
+      "ComStatue": [
+        {
+          "devNo": 29,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器29通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 29,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器29容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 29,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器29的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 29,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器29的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 29,
+      "Name": "逆变器30",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25119,
+      "ComStatue": [
+        {
+          "devNo": 30,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器30通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 30,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器30容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 30,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器30的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 30,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器30的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 30,
+      "Name": "逆变器31",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25120,
+      "ComStatue": [
+        {
+          "devNo": 31,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器31通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 31,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器31容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 31,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器31的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 31,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器31的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 31,
+      "Name": "逆变器32",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25121,
+      "ComStatue": [
+        {
+          "devNo": 32,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器32通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 32,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器32容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 32,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器32的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 32,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器32的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 32,
+      "Name": "逆变器33",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25122,
+      "ComStatue": [
+        {
+          "devNo": 33,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器33通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 33,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器33容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 33,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器33的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 33,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器33的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 33,
+      "Name": "逆变器34",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25123,
+      "ComStatue": [
+        {
+          "devNo": 34,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器34通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 34,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器34容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 34,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器34的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 34,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器34的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 34,
+      "Name": "逆变器35",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25124,
+      "ComStatue": [
+        {
+          "devNo": 35,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器35通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 35,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器35容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 35,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器35的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 35,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器35的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 35,
+      "Name": "逆变器36",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25125,
+      "ComStatue": [
+        {
+          "devNo": 36,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器36通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 36,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器36容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 36,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器36的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 36,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器36的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 36,
+      "Name": "逆变器37",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25126,
+      "ComStatue": [
+        {
+          "devNo": 37,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器37通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 37,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器37容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 37,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器37的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 37,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器37的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 37,
+      "Name": "逆变器38",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25127,
+      "ComStatue": [
+        {
+          "devNo": 38,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器38通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 38,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器38容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 38,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器38的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 38,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器38的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 38,
+      "Name": "逆变器39",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25128,
+      "ComStatue": [
+        {
+          "devNo": 39,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器39通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 39,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器39容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 39,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器39的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 39,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器39的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 39,
+      "Name": "逆变器40",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25129,
+      "ComStatue": [
+        {
+          "devNo": 40,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器40通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 40,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器40容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 40,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器40的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 40,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器40的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 40,
+      "Name": "逆变器41",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25130,
+      "ComStatue": [
+        {
+          "devNo": 41,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器41通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 41,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器41容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 41,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器41的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 41,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器41的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 41,
+      "Name": "逆变器42",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25131,
+      "ComStatue": [
+        {
+          "devNo": 42,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器42通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 42,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器42容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 42,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器42的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 42,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器42的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 42,
+      "Name": "逆变器43",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25132,
+      "ComStatue": [
+        {
+          "devNo": 43,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器43通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 43,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器43容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 43,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器43的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 43,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器43的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 43,
+      "Name": "逆变器44",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25133,
+      "ComStatue": [
+        {
+          "devNo": 44,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器44通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 44,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器44容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 44,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器44的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 44,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器44的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 44,
+      "Name": "逆变器45",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25134,
+      "ComStatue": [
+        {
+          "devNo": 45,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器45通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 45,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器45容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 45,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器45的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 45,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器45的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 45,
+      "Name": "逆变器46",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25135,
+      "ComStatue": [
+        {
+          "devNo": 46,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器46通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 46,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器46容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 46,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器46的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 46,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器46的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 46,
+      "Name": "逆变器47",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25136,
+      "ComStatue": [
+        {
+          "devNo": 47,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器47通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 47,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器47容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 47,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器47的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 47,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器47的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 47,
+      "Name": "逆变器48",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25137,
+      "ComStatue": [
+        {
+          "devNo": 48,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器48通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 48,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器48容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 48,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器48的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 48,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器48的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 48,
+      "Name": "逆变器49",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25138,
+      "ComStatue": [
+        {
+          "devNo": 49,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器49通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 49,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器49容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 49,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器49的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 49,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器49的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 49,
+      "Name": "逆变器50",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25139,
+      "ComStatue": [
+        {
+          "devNo": 50,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器50通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 50,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器50容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 50,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器50的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 50,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器50的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 50,
+      "Name": "逆变器51",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25140,
+      "ComStatue": [
+        {
+          "devNo": 51,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器51通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 51,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器51容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 51,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器51的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 51,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器51的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 51,
+      "Name": "逆变器52",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25141,
+      "ComStatue": [
+        {
+          "devNo": 52,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器52通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 52,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器52容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 52,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器52的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 52,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器52的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 52,
+      "Name": "逆变器53",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25142,
+      "ComStatue": [
+        {
+          "devNo": 53,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器53通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 53,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器53容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 53,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器53的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 53,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器53的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 53,
+      "Name": "逆变器54",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25143,
+      "ComStatue": [
+        {
+          "devNo": 54,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器54通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 54,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器54容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 54,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器54的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 54,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器54的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 54,
+      "Name": "逆变器55",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25144,
+      "ComStatue": [
+        {
+          "devNo": 55,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器55通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 55,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器55容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 55,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器55的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 55,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器55的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 55,
+      "Name": "逆变器56",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25145,
+      "ComStatue": [
+        {
+          "devNo": 56,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器56通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 56,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器56容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 56,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器56的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 56,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器56的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 56,
+      "Name": "逆变器57",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25146,
+      "ComStatue": [
+        {
+          "devNo": 57,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器57通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 57,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器57容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 57,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器57的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 57,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器57的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 57,
+      "Name": "逆变器58",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25147,
+      "ComStatue": [
+        {
+          "devNo": 58,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器58通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 58,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器58容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 58,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器58的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 58,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器58的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 58,
+      "Name": "逆变器59",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25148,
+      "ComStatue": [
+        {
+          "devNo": 59,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器59通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 59,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器59容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 59,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器59的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 59,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器59的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 59,
+      "Name": "逆变器60",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25149,
+      "ComStatue": [
+        {
+          "devNo": 60,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器60通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 60,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器60容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 60,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器60的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 60,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器60的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 60,
+      "Name": "逆变器61",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25150,
+      "ComStatue": [
+        {
+          "devNo": 61,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器61通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 61,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器61容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 61,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器61的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 61,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器61的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 61,
+      "Name": "逆变器62",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25151,
+      "ComStatue": [
+        {
+          "devNo": 62,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器62通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 62,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器62容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 62,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器62的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 62,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器62的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 62,
+      "Name": "逆变器63",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25152,
+      "ComStatue": [
+        {
+          "devNo": 63,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器63通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 63,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器63容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 63,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器63的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 63,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器63的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 63,
+      "Name": "逆变器64",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25153,
+      "ComStatue": [
+        {
+          "devNo": 64,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器64通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 64,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器64容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 64,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器64的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 64,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器64的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 64,
+      "Name": "逆变器65",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25154,
+      "ComStatue": [
+        {
+          "devNo": 65,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器65通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 65,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器65容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 65,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器65的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 65,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器65的无功出力比率"
+        }
+      ]
+    },
+    {
+      "No": 65,
+      "Name": "逆变器66",
+      "Capacity_VA": 60000,
+      "P_RtdbNo": 0,
+      "Q_RtdbNo": 0,
+      "Cos_RtdbNo": 0,
+      "CallBackNo": 0,
+      "CallBackAddr": 25155,
+      "ComStatue": [
+        {
+          "devNo": 66,
+          "RegNo": 0,
+          "type": 0,
+          "Name": "逆变器66通讯状态"
+        }
+      ],
+      "InverCapacityOutVal": [
+        {
+          "devNo": 66,
+          "RegNo": 1,
+          "type": 1,
+          "Name": "逆变器66容量调节值"
+        }
+      ],
+      "InverPOutVal": [
+        {
+          "devNo": 66,
+          "RegNo": 2,
+          "type": 1,
+          "Name": "逆变器66的有功出力比率"
+        }
+      ],
+      "InverCosOutVal": [
+        {
+          "devNo": 66,
+          "RegNo": 3,
+          "type": 1,
+          "Name": "逆变器66的无功出力比率"
+        }
+      ]
+    }
+  ],
+  "RtdbDataItem": [
+    {
+      "devNo": 0,
+      "RegNo": 0,
+      "type": 1,
+      "Name": "逆变器总容量(VA)"
+    },
+    {
+      "devNo": 0,
+      "RegNo": 1,
+      "type": 1,
+      "Name": "逆变器总数量"
+    },
+    {
+      "devNo": 0,
+      "RegNo": 2,
+      "type": 0,
+      "Name": "AVC调节状态"
+    }
+  ]
+}
