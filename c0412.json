@@ -20,7 +20,7 @@
   "ykdoubleStartAddr": 24577,
   "paraNum": 66,
   "paraStartAddr": 25089,
-  "paraCmd": 0,
+  "paraCmd": 1,
   "data": [
     {
       "linkNo": 4,
@@ -12787,7 +12787,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12300,
+      "regNo": 12400,
       "addr": 24577,
       "name": "A区N1_开机/关机",
       "DataType": 2,
@@ -12796,7 +12796,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12301,
+      "regNo": 12401,
       "addr": 24578,
       "name": "A区N2_开机/关机",
       "DataType": 2,
@@ -12805,7 +12805,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12302,
+      "regNo": 12402,
       "addr": 24579,
       "name": "A区N3_开机/关机",
       "DataType": 2,
@@ -12814,7 +12814,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12303,
+      "regNo": 12403,
       "addr": 24580,
       "name": "A区N4_开机/关机",
       "DataType": 2,
@@ -12823,7 +12823,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12304,
+      "regNo": 12404,
       "addr": 24581,
       "name": "A区N5_开机/关机",
       "DataType": 2,
@@ -12832,7 +12832,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12305,
+      "regNo": 12405,
       "addr": 24582,
       "name": "A区N6_开机/关机",
       "DataType": 2,
@@ -12841,7 +12841,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12306,
+      "regNo": 12406,
       "addr": 24583,
       "name": "A区N7_开机/关机",
       "DataType": 2,
@@ -12850,7 +12850,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12307,
+      "regNo": 12407,
       "addr": 24584,
       "name": "A区N8_开机/关机",
       "DataType": 2,
@@ -12859,7 +12859,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12308,
+      "regNo": 12408,
       "addr": 24585,
       "name": "A区N9_开机/关机",
       "DataType": 2,
@@ -12868,7 +12868,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12309,
+      "regNo": 12409,
       "addr": 24586,
       "name": "A区N10_开机/关机",
       "DataType": 2,
@@ -12877,7 +12877,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12310,
+      "regNo": 12410,
       "addr": 24587,
       "name": "A区N11_开机/关机",
       "DataType": 2,
@@ -12886,7 +12886,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12311,
+      "regNo": 12411,
       "addr": 24588,
       "name": "A区N12_开机/关机",
       "DataType": 2,
@@ -12895,7 +12895,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12312,
+      "regNo": 12412,
       "addr": 24589,
       "name": "A区N13_开机/关机",
       "DataType": 2,
@@ -12904,7 +12904,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12313,
+      "regNo": 12413,
       "addr": 24590,
       "name": "A区N14_开机/关机",
       "DataType": 2,
@@ -12913,7 +12913,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12314,
+      "regNo": 12414,
       "addr": 24591,
       "name": "A区N15_开机/关机",
       "DataType": 2,
@@ -12922,7 +12922,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12315,
+      "regNo": 12415,
       "addr": 24592,
       "name": "A区N16_开机/关机",
       "DataType": 2,
@@ -12931,7 +12931,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12316,
+      "regNo": 12416,
       "addr": 24593,
       "name": "A区N17_开机/关机",
       "DataType": 2,
@@ -12940,7 +12940,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12317,
+      "regNo": 12417,
       "addr": 24594,
       "name": "A区N18_开机/关机",
       "DataType": 2,
@@ -12949,7 +12949,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12318,
+      "regNo": 12418,
       "addr": 24595,
       "name": "A区N19_开机/关机",
       "DataType": 2,
@@ -12958,7 +12958,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12319,
+      "regNo": 12419,
       "addr": 24596,
       "name": "A区N20_开机/关机",
       "DataType": 2,
@@ -12967,7 +12967,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12320,
+      "regNo": 12420,
       "addr": 24597,
       "name": "A区N21_开机/关机",
       "DataType": 2,
@@ -12976,7 +12976,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12321,
+      "regNo": 12421,
       "addr": 24598,
       "name": "A区N22_开机/关机",
       "DataType": 2,
@@ -12985,7 +12985,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12322,
+      "regNo": 12422,
       "addr": 24599,
       "name": "A区N23_开机/关机",
       "DataType": 2,
@@ -12994,7 +12994,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12323,
+      "regNo": 12423,
       "addr": 24600,
       "name": "A区N24_开机/关机",
       "DataType": 2,
@@ -13003,7 +13003,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12324,
+      "regNo": 12424,
       "addr": 24601,
       "name": "A区N25_开机/关机",
       "DataType": 2,
@@ -13012,7 +13012,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12325,
+      "regNo": 12425,
       "addr": 24602,
       "name": "A区N26_开机/关机",
       "DataType": 2,
@@ -13021,7 +13021,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12326,
+      "regNo": 12426,
       "addr": 24603,
       "name": "B1N1_开机/关机",
       "DataType": 2,
@@ -13030,7 +13030,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12327,
+      "regNo": 12427,
       "addr": 24604,
       "name": "B2N2_开机/关机",
       "DataType": 2,
@@ -13039,7 +13039,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12328,
+      "regNo": 12428,
       "addr": 24605,
       "name": "B3N3_开机/关机",
       "DataType": 2,
@@ -13048,7 +13048,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12329,
+      "regNo": 12429,
       "addr": 24606,
       "name": "B4N4_开机/关机",
       "DataType": 2,
@@ -13057,7 +13057,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12330,
+      "regNo": 12430,
       "addr": 24607,
       "name": "B5N5_开机/关机",
       "DataType": 2,
@@ -13066,7 +13066,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12331,
+      "regNo": 12431,
       "addr": 24608,
       "name": "B6N6_开机/关机",
       "DataType": 2,
@@ -13075,7 +13075,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12332,
+      "regNo": 12432,
       "addr": 24609,
       "name": "B7N7_开机/关机",
       "DataType": 2,
@@ -13084,7 +13084,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12333,
+      "regNo": 12433,
       "addr": 24610,
       "name": "B8N8_开机/关机",
       "DataType": 2,
@@ -13093,7 +13093,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12334,
+      "regNo": 12434,
       "addr": 24611,
       "name": "B9N9_开机/关机",
       "DataType": 2,
@@ -13102,7 +13102,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12335,
+      "regNo": 12435,
       "addr": 24612,
       "name": "B10N10_开机/关机",
       "DataType": 2,
@@ -13111,7 +13111,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12336,
+      "regNo": 12436,
       "addr": 24613,
       "name": "B11N11_开机/关机",
       "DataType": 2,
@@ -13120,7 +13120,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12337,
+      "regNo": 12437,
       "addr": 24614,
       "name": "B11N12_开机/关机",
       "DataType": 2,
@@ -13129,7 +13129,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12338,
+      "regNo": 12438,
       "addr": 24615,
       "name": "B12N13_开机/关机",
       "DataType": 2,
@@ -13138,7 +13138,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12339,
+      "regNo": 12439,
       "addr": 24616,
       "name": "B13N14_开机/关机",
       "DataType": 2,
@@ -13147,7 +13147,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12340,
+      "regNo": 12440,
       "addr": 24617,
       "name": "B14N15_开机/关机",
       "DataType": 2,
@@ -13156,7 +13156,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12341,
+      "regNo": 12441,
       "addr": 24618,
       "name": "B15N16_开机/关机",
       "DataType": 2,
@@ -13165,7 +13165,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12342,
+      "regNo": 12442,
       "addr": 24619,
       "name": "B16N17_开机/关机",
       "DataType": 2,
@@ -13174,7 +13174,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12343,
+      "regNo": 12443,
       "addr": 24620,
       "name": "B17N18_开机/关机",
       "DataType": 2,
@@ -13183,7 +13183,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12344,
+      "regNo": 12444,
       "addr": 24621,
       "name": "B18N19_开机/关机",
       "DataType": 2,
@@ -13192,7 +13192,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12345,
+      "regNo": 12445,
       "addr": 24622,
       "name": "B19N20_开机/关机",
       "DataType": 2,
@@ -13201,7 +13201,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12346,
+      "regNo": 12446,
       "addr": 24623,
       "name": "B22N21_开机/关机",
       "DataType": 2,
@@ -13210,7 +13210,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12347,
+      "regNo": 12447,
       "addr": 24624,
       "name": "B22N22_开机/关机",
       "DataType": 2,
@@ -13219,7 +13219,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12348,
+      "regNo": 12448,
       "addr": 24625,
       "name": "B23N23_开机/关机",
       "DataType": 2,
@@ -13228,7 +13228,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12349,
+      "regNo": 12449,
       "addr": 24626,
       "name": "B24N24_开机/关机",
       "DataType": 2,
@@ -13237,7 +13237,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12350,
+      "regNo": 12450,
       "addr": 24627,
       "name": "B25N25_开机/关机",
       "DataType": 2,
@@ -13246,7 +13246,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12351,
+      "regNo": 12451,
       "addr": 24628,
       "name": "B26N26_开机/关机",
       "DataType": 2,
@@ -13255,7 +13255,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12352,
+      "regNo": 12452,
       "addr": 24629,
       "name": "B26N27_开机/关机",
       "DataType": 2,
@@ -13264,7 +13264,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12353,
+      "regNo": 12453,
       "addr": 24630,
       "name": "C1N1_开机/关机",
       "DataType": 2,
@@ -13273,7 +13273,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12354,
+      "regNo": 12454,
       "addr": 24631,
       "name": "C2N2_开机/关机",
       "DataType": 2,
@@ -13282,7 +13282,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12355,
+      "regNo": 12455,
       "addr": 24632,
       "name": "C2N3_开机/关机",
       "DataType": 2,
@@ -13291,7 +13291,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12356,
+      "regNo": 12456,
       "addr": 24633,
       "name": "C4N4_开机/关机",
       "DataType": 2,
@@ -13300,7 +13300,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12357,
+      "regNo": 12457,
       "addr": 24634,
       "name": "C4N5_开机/关机",
       "DataType": 2,
@@ -13309,7 +13309,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12358,
+      "regNo": 12458,
       "addr": 24635,
       "name": "C5N6_开机/关机",
       "DataType": 2,
@@ -13318,7 +13318,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12359,
+      "regNo": 12459,
       "addr": 24636,
       "name": "C5N7_开机/关机",
       "DataType": 2,
@@ -13327,7 +13327,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12360,
+      "regNo": 12460,
       "addr": 24637,
       "name": "C5N8_开机/关机",
       "DataType": 2,
@@ -13336,7 +13336,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12361,
+      "regNo": 12461,
       "addr": 24638,
       "name": "C6N9_开机/关机",
       "DataType": 2,
@@ -13345,7 +13345,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12362,
+      "regNo": 12462,
       "addr": 24639,
       "name": "C6N10_开机/关机",
       "DataType": 2,
@@ -13354,7 +13354,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12363,
+      "regNo": 12463,
       "addr": 24640,
       "name": "C7N11_开机/关机",
       "DataType": 2,
@@ -13363,7 +13363,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12364,
+      "regNo": 12464,
       "addr": 24641,
       "name": "C7N12_开机/关机",
       "DataType": 2,
@@ -13372,7 +13372,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12365,
+      "regNo": 12465,
       "addr": 24642,
       "name": "C8N13_开机/关机",
       "DataType": 2,
@@ -13381,7 +13381,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12366,
+      "regNo": 12466,
       "addr": 24643,
       "name": "送出线柜_遥控1",
       "DataType": 2,
@@ -13390,7 +13390,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12367,
+      "regNo": 12467,
       "addr": 24644,
       "name": "A集电线_遥控1",
       "DataType": 2,
@@ -13399,7 +13399,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12368,
+      "regNo": 12468,
       "addr": 24645,
       "name": "B集电线_遥控1",
       "DataType": 2,
@@ -13408,7 +13408,7 @@
     {
       "linkNo": 4,
       "devNo": 0,
-      "regNo": 12369,
+      "regNo": 12469,
       "addr": 24646,
       "name": "C集电线_遥控1",
       "DataType": 2,
@@ -13752,7 +13752,7 @@
       "devNo": 1,
       "regNo": 37,
       "addr": 25126,
-      "name": "有功功率设置B11N12_有功功率设置",
+      "name": "有功功率设置",
       "DataType": 4,
       "ModeName": null
     },

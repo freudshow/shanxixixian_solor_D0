@@ -95,7 +95,12 @@
           "RemotePort": 1000,
           "SocketChannelNo": 2,
           "NetChannelNo": 3,
-          "TcpServerSet": null
+          "TcpServerSet": [
+            {
+              "No": 0,
+              "ClientIp": "172.17.0.1"
+            }
+          ]
         },
         {
           "linkno": 6,

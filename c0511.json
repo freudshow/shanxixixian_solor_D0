@@ -568,7 +568,7 @@
           "Type": 38,
           "MapAddr": 14
         },
-		{
+        {
           "No": 67,
           "Addr": 25155,
           "Desc": "104参数设置函数",
@@ -577,16 +577,7 @@
           "MapAddr": 14
         }
       ],
-      "Actionfixed_info": [
-        {
-          "No": 1,
-          "Addr": 33312,
-          "Desc": "modbus通用函数发帧函数",
-          "Unit": "float4字节",
-          "Type": 38,
-          "MapAddr": 3
-        }
-      ]
+      "Actionfixed_info": []
     }
   ],
   "FaultEventSubmission": [],
